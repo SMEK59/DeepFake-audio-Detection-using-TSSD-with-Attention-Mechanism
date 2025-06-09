@@ -47,6 +47,7 @@ To develop a scalable and real-time **deepfake audio detection** framework using
 - **Dense Layers**: Fully connected layers
 - **Output**: Softmax layer classifying audio as Real or Fake
 
+
 ![WhatsApp Image 2025-06-09 at 10 35 49 PM](https://github.com/user-attachments/assets/e897b24d-961b-4d28-87b1-9de50117a486)
 
 
@@ -61,6 +62,26 @@ To develop a scalable and real-time **deepfake audio detection** framework using
 
 - **AUC Score**: 0.99  
 - Excellent generalization across real and fake voice samples
+
+
+## UI Preview
+
+** Front Page **
+
+![Front page](https://github.com/user-attachments/assets/60fac694-0968-42a2-a587-d632dedd31b0)
+
+** Login Page **
+
+![Login Page](https://github.com/user-attachments/assets/c123f00e-1672-4e3e-ab4a-078d706bda7d)
+
+** Real Audio Result **
+
+![img2 (1)](https://github.com/user-attachments/assets/037d303d-6bcb-420d-906e-dff5e1782981)
+
+** Fake Audio Result **
+
+![img1 (2)](https://github.com/user-attachments/assets/c2765989-1ff2-43d1-93a2-3dbd4e783d81)
+
 
 ## 💻 How to Run
 
