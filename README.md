@@ -1,18 +1,21 @@
 # 🔊 DeepFake-audio-Detection-using-TSSD-with-Attention-Mechanism
 
-A deep learning-based system for detecting synthetic (deepfake) audio using a Time-Domain Synthetic Speech Detection (TSSD) model enhanced with a multi-head attention mechanism. The system analyzes key spectral and temporal features such as MFCC, Mel Spectrogram, Chroma, Zero-Crossing Rate, Spectral Centroid, and Spectral Flatness to classify audio clips as real or fake with high accuracy. A Flask web interface allows users to upload audio files and receive real-time classification results.
+As deepfake technologies evolve, synthetic voice manipulation has become a significant threat—enabling voice impersonation, misinformation, and audio-based fraud. This project addresses these risks by implementing a **robust deep learning system** that accurately distinguishes real from fake audio using a **Time-Domain Synthetic Speech Detection (TSSD)** model enhanced with a **multi-head attention mechanism**.
+
 
 ## 📌 Overview
 
-This system utilizes a **Time-Domain Synthetic Speech Detection (TSSD)** architecture combined with a **multi-head attention mechanism** to capture both local and global audio features. The model is trained on a dataset of 30,000 audio samples (15k real + 15k fake), and deployed using a real-time Flask web interface for practical use.
+We built a high-performance audio classification model using a **1D CNN-based TSSD architecture** coupled with **multi-head self-attention** to extract and emphasize important temporal and spectral features. The system supports **real-time detection** via a Flask-powered web interface where users can upload `.wav` files and receive instant predictions.
+
 
 ## 🎯 Objective
 
-To develop a high-accuracy, real-time audio classification system that detects deepfake speech using time-series neural networks and advanced attention-based learning.
+To develop a scalable and real-time **deepfake audio detection** framework using time-series neural networks and **attention-based learning**, achieving high accuracy and robustness across diverse synthetic speech sources.
+
 
 ## ✨ Features
 
-- **TSSD Architecture**: Specialized 1D CNN model tailored for temporal feature extraction in audio.
+- **TSSD Architecture**: Captures temporal dependencies in audio using 1D CNN and residual blocks.
 - **Attention Mechanism**: Multi-head self-attention layer enhances focus on critical segments of speech.
 - **Rich Feature Extraction**: Uses MFCC, Mel Spectrogram, Chroma, ZCR, Spectral Centroid & Flatness.
 - **High Performance**:  
@@ -24,10 +27,10 @@ To develop a high-accuracy, real-time audio classification system that detects d
 ## 🛠️ Tech Stack
 
 - **Python** – Core programming language
-- **TensorFlow / Keras** – Model training and evaluation
-- **Librosa** – Audio preprocessing and feature extraction
+- **PyTorch** – for model building and training
+- **NumPy, Librosa** – Audio preprocessing and feature extraction
 - **Flask** – Web framework for UI and backend integration
-- **HTML/CSS** – Frontend for file upload and result display
+- **HTML** – Frontend integration
 
 ## 📂 Dataset
 
@@ -43,6 +46,7 @@ To develop a high-accuracy, real-time audio classification system that detects d
 - **Attention Layer**: Multi-head attention mechanism
 - **Dense Layers**: Fully connected layers
 - **Output**: Softmax layer classifying audio as Real or Fake
+![Model Architecture](WhatsApp Image 2025-06-09 at 10.35.49 PM)
 
 
 ## 📊 Performance Metrics
