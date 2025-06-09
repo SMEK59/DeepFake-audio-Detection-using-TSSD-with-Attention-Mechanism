@@ -1,11 +1,11 @@
 # 🔊 DeepFake-audio-Detection-using-TSSD-with-Attention-Mechanism
 
-As deepfake technologies evolve, synthetic voice manipulation has become a significant threat—enabling voice impersonation, misinformation, and audio-based fraud. This project addresses these risks by implementing a **robust deep learning system** that accurately distinguishes real from fake audio using a **Time-Domain Synthetic Speech Detection (TSSD)** model enhanced with a **multi-head attention mechanism**.
+As deepfake technologies evolve, synthetic voice manipulation has become a significant threat—enabling voice impersonation, misinformation, and audio-based fraud. This project addresses these risks by implementing a robust deep learning system that accurately distinguishes real from fake audio using a **Time-Domain Synthetic Speech Detection (TSSD)** model enhanced with a **multi-head attention mechanism**.
 
 
 ## 📌 Overview
 
-We built a high-performance audio classification model using a **1D CNN-based TSSD architecture** coupled with **multi-head self-attention** to extract and emphasize important temporal and spectral features. The system supports **real-time detection** via a Flask-powered web interface where users can upload `.wav` files and receive instant predictions.
+We built a high-performance audio classification model using a 1D CNN-based TSSD architecture coupled with multi-head self-attention to extract and emphasize important temporal and spectral features. The system supports real-time detection via a Flask-powered web interface where users can upload `.wav` files and receive instant predictions.
 
 
 ## 🎯 Objective
@@ -66,19 +66,19 @@ To develop a scalable and real-time **deepfake audio detection** framework using
 
 ## UI Preview
 
-** Front Page **
+## Front Page 
 
 ![Front page](https://github.com/user-attachments/assets/60fac694-0968-42a2-a587-d632dedd31b0)
 
-** Login Page **
+## Login Page 
 
 ![Login Page](https://github.com/user-attachments/assets/c123f00e-1672-4e3e-ab4a-078d706bda7d)
 
-** Real Audio Result **
+## Real Audio Result 
 
 ![img2 (1)](https://github.com/user-attachments/assets/037d303d-6bcb-420d-906e-dff5e1782981)
 
-** Fake Audio Result **
+## Fake Audio Result 
 
 ![img1 (2)](https://github.com/user-attachments/assets/c2765989-1ff2-43d1-93a2-3dbd4e783d81)
 
