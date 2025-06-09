@@ -46,7 +46,9 @@ To develop a scalable and real-time **deepfake audio detection** framework using
 - **Attention Layer**: Multi-head attention mechanism
 - **Dense Layers**: Fully connected layers
 - **Output**: Softmax layer classifying audio as Real or Fake
-![Model Architecture](WhatsApp Image 2025-06-09 at 10.35.49 PM)
+
+![WhatsApp Image 2025-06-09 at 10 35 49 PM](https://github.com/user-attachments/assets/e897b24d-961b-4d28-87b1-9de50117a486)
+
 
 
 ## 📊 Performance Metrics
